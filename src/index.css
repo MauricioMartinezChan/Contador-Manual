@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b7cbe6;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.botoncontadormenos,
+.botoncontadorcero,
+.botoncontadormas {
+  background-color: #984caf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botoncontadormenos:hover {
+  background-color: #813333;
+}
+
+.botoncontadorcero:hover {
+  background-color: #707070;
+}
+
+.botoncontadormas:hover {
+  background-color: #2c417a;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
